@@ -14,6 +14,7 @@ Our solution leverages a fine-tuned **BERT (Bidirectional Encoder Representation
 * **GPU Acceleration:** Offloads heavy mathematical matrix operations to the **NVIDIA GPU (CUDA)**, reducing CPU overhead by **60%** and providing near-instant results.
 * **Privacy-First:** The AI runs locally on your machine—your browsing data never leaves your local network.
 
+Check our Website : https://rohitbapu.github.io/Website/
 ---
 
 ## 🛠️ Tech Stack
