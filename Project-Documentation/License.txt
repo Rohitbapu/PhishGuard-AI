@@ -1,0 +1,5 @@
+PhishGuard AI - MIT License
+
+Copyright (c) 2026 S B ROHIT BAPU, Muhammed Ibrahim, K Siddharth
+
+Permission is hereby granted to any person obtaining a copy of this software to use it for the purposes of the AI4Dev '26 Hackathon at PSG College of Technology. The software is provided "as is", without warranty of any kind, express or implied.

@@ -1,0 +1,18 @@
+PhishGuard AI: Successful Installation!
+
+How to Run the Demo:
+
+Launch the Backend: Double-click the 'PhishGuard Pro' icon on your Desktop.
+
+Check the Status: Ensure the console says "🚀 GPU Active" or "💻 CPU Mode Ready".
+
+Load the Extension: >    * Open Chrome -> chrome://extensions.
+
+Enable 'Developer Mode'.
+
+Click 'Load Unpacked' and select the 'EXTENSION' folder inside:
+C:\Program Files (x86)\PhishGuard Pro\EXTENSION.
+
+Start Scanning: Open test.html to see the AI in action!
+
+Team PhishGuard: Rohit Bapu, Muhammed Ibrahim, K Siddharth.
