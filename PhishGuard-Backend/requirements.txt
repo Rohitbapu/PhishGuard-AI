@@ -1,0 +1,5 @@
+fastapi
+uvicorn
+phishing-detection-py
+torch
+pydantic
