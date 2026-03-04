@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        :root { --bg: #0b0f1a; --card: #161b2c; --accent: #38bdf8; --danger: #f43f5e; --success: #10b981; }
+        body { width: 280px; font-family: 'Inter', sans-serif; background: var(--bg); color: #f8fafc; margin: 0; padding: 15px; }
+        .card { background: var(--card); border-radius: 12px; padding: 16px; border: 1px solid #2d3748; }
+        .header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
+        .brand { font-size: 14px; font-weight: 800; color: var(--accent); }
+        .status-box { display: flex; align-items: center; gap: 6px; font-size: 11px; font-weight: bold; padding: 4px 8px; border-radius: 20px; background: #00000044; }
+        .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--danger); }
+        .dot.online { background: var(--success); box-shadow: 0 0 10px var(--success); }
+        
+        .action-btn { width: 100%; padding: 12px; border: none; border-radius: 8px; font-weight: 700; cursor: pointer; transition: 0.2s; margin-top: 10px; font-size: 12px; }
+        .btn-toggle { background: #2d3748; color: white; }
+        .btn-toggle.active { background: var(--danger); color: white; }
+        .btn-allow { background: var(--accent); color: var(--bg); margin-top: 15px; }
+        .btn-allow:hover { filter: brightness(1.1); }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="header">
+            <span class="brand">PHISHGUARD PRO</span>
+            <div class="status-box">
+                <div id="status-dot" class="dot"></div>
+                <span id="status-text">OFFLINE</span>
+            </div>
+        </div>
+
+        <button id="main-toggle" class="action-btn btn-toggle">Protection: ON</button>
+
+        <button id="add-allowlist" class="action-btn btn-allow">Allow Current Website</button>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
